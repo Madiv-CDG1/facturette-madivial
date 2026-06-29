@@ -305,7 +305,7 @@
 
     try {
       await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams);
-      setStatus("success", "✅ Photo envoyée ! Madivial va recevoir la facturette.");
+      setStatus("success", "✅ Photo envoyée ! La coopérative va recevoir la facturette.");
       // Reset après succès
       setTimeout(() => {
         selectedFile = null;
